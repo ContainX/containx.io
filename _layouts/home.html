@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/home.css">
+</head>
+
+<body class="home">
+	{% include navbar.html %}
+
+	<div id="wrapper" class="home">
+
+		<div class="container-fluid">
+			<div class="header row">
+				<div class="main col-xs-12">
+					<div class="header-wrapper">
+
+						<div class="header-text">
+							<h4 class="sub-heading">Providing Opensource solutions for</h4>
+							<h1 class="main-heading">Microservices, Cloud, Docker, Security and Automation</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row gray-background">
+				<div class="section">
+					<h2 class="section-header section-header--big">Featured Projects</h2>
+					<div class="flex-container">
+
+
+						<a class="chapter" href="http://openstack4j.com" target=_blank>
+							<div class="chapter-image blue">
+								<div class="openstack4j-icon"></div>
+							</div>
+							<div class="chapter-content">
+								<h4 class="chapter-title">OpenStack4j</h4>
+								<p class="chapter-description">Fluent, fully-featured OpenStack SDK for Java</p>
+							</div>
+						</a>
+						<a class="chapter" href="http://netshare.containx.io" target=_blank>
+							<div class="chapter-image purple">
+								<div class="netshare-icon"></div>
+							</div>
+							<div class="chapter-content">
+								<h4 class="chapter-title">Docker Volume Netshare</h4>
+								<p class="chapter-description">Netshare provides the abilities to mount NFS, EFS, CIFS and Ceph volumes in a Docker container</p>
+							</div>
+						</a>
+						<a class="chapter" href="http://depcon.containx.io" target=_blank>
+							<div class="chapter-image greyblue">
+								<div class="depcon-icon"></div>
+							</div>
+							<div class="chapter-content">
+								<h4 class="chapter-title">Depcon</h4>
+								<p class="chapter-description">Blue/Green deployments and management on Mesos/Marathon clusters</p>
+							</div>
+						</a>
+
+						<a class="chapter" href="https://github.com/ContainX/marathon-ldap" target=_blank>
+							<div class="chapter-image orange">
+								<div class="marathon-ldap-icon"></div>
+							</div>
+							<div class="chapter-content">
+								<h4 class="chapter-title">Marathon LDAP</h4>
+								<p class="chapter-description">LDAP / Active Directory Authentication and Authorization Plugin for Mesosphere Marathon</p>
+							</div>
+						</a>
+
+						<a class="chapter" href="https://github.com/ContainX/beethoven" target=_blank>
+							<div class="chapter-image darkblue">
+								<div class="beethoven-icon"></div>
+							</div>
+							<div class="chapter-content">
+								<h4 class="chapter-title">Beethoven</h4>
+								<p class="chapter-description">Mesos/Marathon HTTP Load balancing and Discovery via NGINX</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<h2 class="section-header section-header--big">Our Sponsors</h2>
+				<div class="sponsor-section container-fluid">
+					<div class="col-sm-12">
+						<center>
+					   <a href="https://www.datadoghq.com" target=_blank><img src="img/sponsors/datadoglogo.png" class="sponsor-logo"></a>
+					   <a href="https://rackspace.com" target=_blank><img src="img/sponsors/rackspace-logo.png" class="sponsor-logo"></a>
+					 </center>
+				  </div>
+		    </div>
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/js/headroom.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+	{% include ga.html %}
+</body>
+</html>

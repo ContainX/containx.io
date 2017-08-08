@@ -1,0 +1,19 @@
+title: ContainX Opensource
+email: jeremy@containx.io
+description: Microservices, Cloud, Docker, Security and Automation
+twitter_username: jeremyunruh
+github_username:  ContainX
+tracking_id: UA-76964355-3
+
+sass:
+  style: compressed
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
+url: "http://containx.io"
+exclude: ['api-src/']

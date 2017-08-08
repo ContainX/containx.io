@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default navbar-fixed-top headroom">
+	<div class="container-fluid">
+
+		<div class="navbar-header">
+			<a class="navbar-brand" href="{{ site.baseurl }}/">
+					<span class="navbar-brand--logo">ContainX</span>
+			</a>
+
+			{% if .page.title %}
+			<ol class="breadcrumb navbar-left">
+				<li class="page-section">{{ page.section }}</li>
+				<li class="page-title">{{ page.title }}</li>
+			</ol>
+			{% endif %}
+		</div>
+  </div>
+</nav>
